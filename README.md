@@ -76,7 +76,7 @@ Please feel free to add your own code, fix bugs or improve the docs.
 
 #Taking inputs (stdin)
 OneCompiler's Java online editor supports stdin and users can give inputs to the programs using the STDIN textbox under the I/O tab. Using Scanner class in Java program, you can read the inputs. Following is a sample program that shows reading STDIN ( A string in this case ).
-
+```
 import java.util.Scanner;
 class Input {
     public static void main(String[] args) {
@@ -86,3 +86,4 @@ class Input {
     	System.out.println("Hello, " + inp);
     }
 }
+```
